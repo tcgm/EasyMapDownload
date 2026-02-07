@@ -176,8 +176,6 @@ public class DirectoryBrowserScreen extends Screen {
     
     @Override
     public void render(DrawContext context, int mouseX, int mouseY, float delta) {
-        super.renderBackground(context, mouseX, mouseY, delta);
-        
         // Draw path field
         this.pathField.render(context, mouseX, mouseY, delta);
         
